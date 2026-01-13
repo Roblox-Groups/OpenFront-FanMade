@@ -1,1 +1,95 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Fake map background */
+.background {
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(#6fa8dc, #93c47d);
+  filter: blur(2px);
+  z-index: -1;
+}
+
+/* Center menu */
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+
+/* Title */
+.logo {
+  font-size: 64px;
+  color: white;
+  text-shadow: 4px 4px 0 #1c4587;
+  margin: 0;
+}
+
+.version {
+  color: white;
+  margin-bottom: 30px;
+}
+
+/* Username input */
+.username-input {
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 3px solid #3c78d8;
+  outline: none;
+  width: 260px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Game card */
+.game-card {
+  background: #3c78d8;
+  color: white;
+  padding: 20px;
+  width: 340px;
+  border-radius: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.game-card h2 {
+  margin: 0 0 10px;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #6d9eeb;
+  color: white;
+}
+
+button:hover {
+  background: #3c78d8;
+}
+
+/* Single player */
+.singleplayer {
+  background: #1155cc;
+  width: 340px;
+}
 
