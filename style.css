@@ -58,13 +58,14 @@ body {
 
 /* Game card */
 .game-card {
-  background: #3c78d8;
+  background: linear-gradient(#4a86e8, #3c78d8);
   color: white;
-  padding: 20px;
-  width: 340px;
-  border-radius: 14px;
+  padding: 24px;
+  width: 360px;
+  border-radius: 18px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 10px 0 #1c4587;
 }
 
 .game-card h2 {
