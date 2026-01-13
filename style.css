@@ -38,10 +38,9 @@ body {
     0 0 20px rgba(255,255,255,0.4);
   margin-bottom: 4px;
 }
-
 .version {
-  color: white;
-  margin-bottom: 30px;
+  color: rgba(255,255,255,0.8);
+  margin-bottom: 35px;
 }
 
 /* Username input */
