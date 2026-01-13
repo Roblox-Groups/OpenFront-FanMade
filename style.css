@@ -45,14 +45,15 @@ body {
 
 /* Username input */
 .username-input {
-  padding: 12px;
+  padding: 14px;
   font-size: 18px;
-  border-radius: 10px;
+  border-radius: 14px;
   border: 3px solid #3c78d8;
   outline: none;
   width: 260px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 6px 0 #1c4587;
 }
 
 /* Game card */
