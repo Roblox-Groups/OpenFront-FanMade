@@ -31,10 +31,12 @@ body {
 
 /* Title */
 .logo {
-  font-size: 64px;
+  font-size: 72px;
   color: white;
-  text-shadow: 4px 4px 0 #1c4587;
-  margin: 0;
+  text-shadow:
+    0 4px 0 #1c4587,
+    0 0 20px rgba(255,255,255,0.4);
+  margin-bottom: 4px;
 }
 
 .version {
